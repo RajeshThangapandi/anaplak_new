@@ -64,7 +64,7 @@ export default function CircleSection() {
             xs:w-[120px] xs:h-[120px]
           "
         >
-          <img src="/circle_img.jpg" className="w-full h-full object-cover" />
+          <img src="/a.png" className="w-full h-full object-cover" />
         </div>
 
         {/* INNER RING — DESKTOP SAME */}

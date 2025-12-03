@@ -147,7 +147,7 @@ export default function HeroSlider() {
 
       {/* RIGHT BULLETS (hidden on mobile) */}
   {/* RIGHT BULLETS (hidden on mobile) */}
-<div
+{/* <div
   className="
     hidden sm:flex flex-col gap-6
     absolute right-10 top-1/2 -translate-y-1/2 z-20
@@ -174,7 +174,7 @@ export default function HeroSlider() {
       </button>
     )
   })}
-</div>
+</div> */}
 
 
       {/* ANIMATIONS */}

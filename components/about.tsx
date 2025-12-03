@@ -62,10 +62,11 @@ export default function About() {
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <img
-            src="/aboutus.jpg"
-            className="w-full h-[650px] md:h-[780px] object-cover rounded-xl"
-          />
+        <img
+  src="/aboutus.jpg"
+  className="w-full h-[650px] md:h-[780px] object-cover object-top rounded-xl"
+/>
+
 
           <h6 className="uppercase mt-6 text-white font-semibold text-[15px] leading-relaxed max-w-[450px]">
             Experience the artistry of hair styling with a team that values your
@@ -102,10 +103,11 @@ export default function About() {
 
           {/* BOTTOM IMAGE BLOCK */}
           <div className="relative w-full">
-            <img
-              src="/aboutus2.jpg"
-              className="w-full h-[480px] md:h-[580px] object-cover rounded-xl"
-            />
+          <img
+  src="/aboutus2.jpg"
+  className="w-full h-[480px] md:h-[580px] object-cover object-[50%_15%] rounded-xl"
+/>
+
 
             {/* ROTATING LOGO */}
             {/* ROTATING LOGO — TOP RIGHT CORNER */}

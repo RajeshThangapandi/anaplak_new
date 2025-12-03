@@ -6,7 +6,7 @@ import { X, Play, Pause, Volume2, VolumeX, Maximize2 } from "lucide-react"
 export default function VideoPlayerModal({
   isOpen,
   onClose,
-  videoUrl = "Hf6abfL1la4",
+  videoUrl = "https://youtube.com/shorts/k5HfkZ-OuS4",
 }: {
   isOpen: boolean
   onClose: () => void
@@ -15,11 +15,28 @@ export default function VideoPlayerModal({
   const [isPlaying, setIsPlaying] = useState(false)
   const [isMuted, setIsMuted] = useState(false)
 
-  // 🔥 Autoplay video when the modal opens
+  // Extract YouTube ID from normal or shorts URL
+  const extractYouTubeId = (url: string) => {
+    try {
+      if (url.includes("shorts/")) {
+        return url.split("shorts/")[1].split("?")[0]
+      }
+      if (url.includes("watch?v=")) {
+        return url.split("watch?v=")[1].split("&")[0]
+      }
+      return url
+    } catch {
+      return url
+    }
+  }
+
+  const videoId = extractYouTubeId(videoUrl)
+
+  // Autoplay when modal opens
   useEffect(() => {
     if (isOpen) {
       setIsPlaying(true)
-      setIsMuted(true) // OPTIONAL: prevents browser autoplay block
+      setIsMuted(true)
     }
   }, [isOpen])
 
@@ -36,19 +53,10 @@ export default function VideoPlayerModal({
       onClick={handleClose}
     >
       <div
-        className="
-          bg-black 
-          w-full 
-          max-w-3xl     /* smaller size */
-          rounded-2xl   
-          overflow-hidden 
-          shadow-2xl 
-          animate-scale-up 
-          relative
-        "
-        onClick={(e) => e.stopPropagation()} // ❗ prevents closing when clicking inside
+        className="bg-black w-full max-w-[420px] rounded-2xl overflow-hidden shadow-2xl animate-scale-up relative"
+        onClick={(e) => e.stopPropagation()}
       >
-        {/* 🔥 Close Button */}
+        {/* CLOSE BUTTON */}
         <button
           onClick={handleClose}
           className="absolute top-3 right-3 text-white hover:text-gray-300 transition z-50 bg-black/40 rounded-full p-2"
@@ -56,21 +64,20 @@ export default function VideoPlayerModal({
           <X size={24} />
         </button>
 
-        {/* VIDEO AREA */}
-        <div className="relative bg-black aspect-video">
+        {/* VIDEO AREA — VERTICAL 9:16 FOR SHORTS */}
+        <div className="relative bg-black aspect-[9/16]">
 
+          {/* IFRAME AUTOPLAY */}
+        {isPlaying && (
+  <iframe
+    className="w-full h-full"
+    src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=${isMuted ? 1 : 0}&playsinline=1&controls=0&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&fs=0`}
+    allow="autoplay; encrypted-media"
+    allowFullScreen
+  />
+)}
 
-          {/* 📌 AUTOPLAY MODE — show iframe immediately */}
-          {isPlaying && (
-            <iframe
-              className="w-full h-full"
-              src={`https://www.youtube.com/embed/${videoUrl}?autoplay=1&mute=${isMuted ? 1 : 0}`}
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-            />
-          )}
-
-          {/* 📌 If autoplay fails (rare), show thumbnail fallback */}
+          {/* FALLBACK IMAGE IF YOUTUBE BLOCKS AUTOPLAY */}
           {!isPlaying && (
             <>
               <img
@@ -89,11 +96,10 @@ export default function VideoPlayerModal({
             </>
           )}
 
-          {/* CONTROLS BAR */}
+          {/* CONTROLS */}
           {isPlaying && (
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 px-4 py-3">
               <div className="flex justify-between items-center">
-
                 <div className="flex gap-4">
                   <button onClick={() => setIsPlaying(false)} className="text-white">
                     <Pause size={18} />
@@ -110,6 +116,7 @@ export default function VideoPlayerModal({
               </div>
             </div>
           )}
+
         </div>
 
         {/* INFO BAR */}

@@ -71,8 +71,9 @@ export default function Header() {
               target="_blank"
               className="hover:opacity-80 transition"
             >
-              <Instagram size={18} className="md:hidden" />
-              <Instagram size={20} className="hidden md:block" />
+              <img src="/instagram.png" alt="Instagram" className="w-[18px] h-[18px]" />
+              {/* <Instagram size={18} className="md:hidden" />
+              <Instagram size={20} className="hidden md:block" /> */}
             </a>
 
             <a
@@ -80,8 +81,9 @@ export default function Header() {
               target="_blank"
               className="hover:opacity-80 transition"
             >
-              <Facebook size={18} className="md:hidden" />
-              <Facebook size={20} className="hidden md:block" />
+              <img src="/facebook.png" alt="Facebook" className="w-[18px] h-[18px]" />
+              {/* <Facebook size={18} className="md:hidden" />
+              <Facebook size={20} className="hidden md:block" /> */}
             </a>
 
             <a
@@ -89,8 +91,16 @@ export default function Header() {
               target="_blank"
               className="hover:opacity-80 transition"
             >
-              <MessageCircle size={18} className="md:hidden" />
-              <MessageCircle size={20} className="hidden md:block" />
+              <img src="/whatsapp.png" alt="Whatsapp" className="w-[18px] h-[18px]" />
+              
+            </a>
+            <a
+              href="https://wa.me/919840088867"
+              target="_blank"
+              className="hover:opacity-80 transition"
+            >
+              <img src="/youtube.png" alt="YouTube" className="w-[18px] h-[18px]" />
+              
             </a>
           </div>
         </div>
@@ -221,14 +231,22 @@ export default function Header() {
   {/* Social Icons */}
   <div className="flex gap-6 text-white mt-8">
     <a href="https://www.instagram.com/anaplak_art_and_glam_salon?igsh=MW9vcjV3cDl3dGFvZg%3D%3D" target="_blank">
-      <Instagram size={24} />
+     <img src="/instagram.png" alt="Instagram" className="w-[24px] h-[24px]" />
     </a>
     <a href="https://www.facebook.com/anaplakartandglam" target="_blank">
-      <Facebook size={24} />
+       <img src="/facebook.png" alt="Facebook" className="w-[24px] h-[24px]" />
     </a>
     <a href="https://wa.me/919840088867" target="_blank">
-      <MessageCircle size={24} />
+       <img src="/whatsapp.png" alt="Whatsapp" className="w-[24px] h-[24px]" />
     </a>
+    <a
+              href="https://wa.me/919840088867"
+              target="_blank"
+              className="hover:opacity-80 transition"
+            >
+              <img src="/youtube.png" alt="YouTube" className="w-[24px] h-[24px]" />
+              
+            </a>
   </div>
 </div>
 

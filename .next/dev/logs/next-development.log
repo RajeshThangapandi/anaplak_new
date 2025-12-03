@@ -1,49 +1,338 @@
-[00:00:00.948] Server  LOG      ✓ Ready in 709ms
-[00:00:04.398] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:00.822] Server  LOG      ✓ Ready in 615ms
+[00:00:40.072] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:10.889] Server  LOG      ✓ Compiled in 69ms
-[00:00:12.550] Server  LOG      ✓ Compiled in 98ms
-[00:00:14.923] Server  LOG      ✓ Compiled in 116ms
-[00:00:17.468] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:40.080] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:24.704] Server  LOG      ✓ Compiled in 49ms
-[00:01:23.272] Server  LOG      ✓ Compiled in 165ms
-[00:01:27.180] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:01:17.114] Server  LOG      ✓ Compiled in 97ms
+[00:08:30.539] Server  LOG      ✓ Compiled in 251ms
+[00:08:31.071] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:01:28.430] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:08:31.081] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:01:28.560] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:01:39.963] Server  LOG      ✓ Compiled in 82ms
-[00:01:42.197] Server  LOG      ✓ Compiled in 91ms
-[00:01:44.023] Server  LOG      ✓ Compiled in 33ms
-[00:01:47.706] Server  LOG      ✓ Compiled in 67ms
-[00:01:56.561] Server  LOG      ✓ Compiled in 94ms
-[00:01:57.947] Server  LOG      ✓ Compiled in 71ms
-[00:02:02.221] Server  LOG      ✓ Compiled in 44ms
-[00:02:37.181] Server  LOG      ✓ Compiled in 601ms
-[00:03:03.805] Server  LOG      ✓ Compiled in 194ms
-[00:03:21.033] Server  LOG      ✓ Compiled in 135ms
-[00:04:32.374] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:08:36.444] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:07:00.691] Server  LOG      ✓ Compiled in 1497ms
-[00:13:51.879] Server  LOG      ✓ Compiled in 234ms
-[00:13:56.573] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:08:36.797] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:15:03.539] Server  LOG      ✓ Compiled in 368ms
-[00:15:22.068] Server  LOG      ✓ Compiled in 248ms
-[00:15:27.250] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:08:36.808] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:18:29.479] Server  LOG      ✓ Compiled in 280ms
-[00:24:36.369] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:08:41.767] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:26:49.637] Server  LOG      ✓ Compiled in 192ms
-[00:26:53.635] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:08:42.103] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:27:45.363] Server  LOG      ✓ Compiled in 177ms
-[00:27:46.202] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:08:42.121] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:27:48.858] Server  LOG      ✓ Compiled in 53ms
-[00:28:20.271] Server  LOG      ✓ Compiled in 96ms
-[00:28:20.306] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:10:16.477] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:28:26.543] Server  LOG      ✓ Compiled in 58ms
+[00:10:16.737] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:11:09.775] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:12:07.360] Server  LOG      ✓ Compiled in 173ms
+[00:12:12.721] Server  LOG      ✓ Compiled in 61ms
+[00:12:20.294] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:12:30.531] Server  LOG      ✓ Compiled in 93ms
+[00:12:37.629] Server  LOG      ✓ Compiled in 54ms
+[00:12:46.083] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:13:42.992] Server  LOG      ✓ Compiled in 159ms
+[00:14:45.385] Server  LOG      ✓ Compiled in 114ms
+[00:14:47.719] Server  LOG      ✓ Compiled in 62ms
+[00:15:45.730] Server  LOG      ✓ Compiled in 119ms
+[00:15:55.163] Server  LOG      ✓ Compiled in 94ms
+[00:15:58.008] Server  LOG      ✓ Compiled in 69ms
+[00:16:00.870] Server  LOG      ✓ Compiled in 33ms
+[00:17:02.272] Server  LOG      ✓ Compiled in 239ms
+[00:17:16.744] Server  LOG      ✓ Compiled in 123ms
+[00:17:19.712] Server  LOG      ✓ Compiled in 64ms
+[00:23:28.529] Server  LOG      ✓ Compiled in 224ms
+[00:23:33.985] Server  LOG      ✓ Compiled in 73ms
+[00:23:39.488] Server  LOG      ✓ Compiled in 58ms
+[00:23:48.312] Server  LOG      ✓ Compiled in 150ms
+[00:23:49.865] Server  LOG      ✓ Compiled in 124ms
+[00:23:52.845] Server  LOG      ✓ Compiled in 86ms
+[00:24:40.265] Server  LOG      ✓ Compiled in 113ms
+[00:24:41.889] Server  LOG      ✓ Compiled in 53ms
+[00:24:46.151] Server  LOG      ✓ Compiled in 159ms
+[00:24:47.141] Server  LOG      ✓ Compiled in 129ms
+[00:24:49.192] Server  LOG      ✓ Compiled in 101ms
+[00:24:50.884] Server  LOG      ✓ Compiled in 60ms
+[00:24:53.898] Server  LOG      ✓ Compiled in 50ms
+[00:25:00.134] Server  LOG      ✓ Compiled in 59ms
+[00:25:03.914] Server  LOG      ✓ Compiled in 41ms
+[00:25:08.465] Server  LOG      ✓ Compiled in 57ms
+[00:25:11.683] Server  LOG      ✓ Compiled in 57ms
+[00:25:12.966] Server  LOG      ✓ Compiled in 35ms
+[00:25:16.331] Server  LOG      ✓ Compiled in 50ms
+[00:26:15.563] Server  LOG      ✓ Compiled in 113ms
+[00:26:25.261] Server  LOG      ✓ Compiled in 59ms
+[00:26:28.772] Server  LOG      ✓ Compiled in 84ms
+[00:26:31.091] Server  LOG      ✓ Compiled in 59ms
+[00:27:46.811] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:34.267] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:43:35.728] Server  LOG      ✓ Compiled in 351ms
+[00:43:55.429] Server  LOG      ✓ Compiled in 122ms
+[00:44:40.329] Server  LOG      ✓ Compiled in 214ms
+[00:45:17.397] Server  LOG      ✓ Compiled in 91ms
+[00:45:35.275] Server  LOG      ✓ Compiled in 103ms
+[00:46:20.240] Server  LOG      ✓ Compiled in 221ms
+[00:48:38.370] Server  LOG      ✓ Compiled in 146ms
+[00:48:43.337] Server  LOG      ✓ Compiled in 57ms
+[00:48:47.162] Server  LOG      ✓ Compiled in 56ms
+[00:48:47.362] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:49.117] Server  LOG      ✓ Compiled in 43ms
+[00:48:49.145] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:50.861] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:50.887] Server  LOG      ✓ Compiled in 74ms
+[00:48:59.753] Server  LOG      ✓ Compiled in 77ms
+[00:49:05.227] Server  LOG      ✓ Compiled in 58ms
+[00:49:06.660] Server  LOG      ✓ Compiled in 51ms
+[00:49:09.799] Server  LOG      ✓ Compiled in 46ms
+[00:49:12.337] Server  LOG      ✓ Compiled in 52ms
+[00:49:14.790] Server  LOG      ✓ Compiled in 57ms
+[00:49:16.623] Server  LOG      ✓ Compiled in 42ms
+[00:49:19.406] Server  LOG      ✓ Compiled in 45ms
+[00:49:21.120] Server  LOG      ✓ Compiled in 56ms
+[00:49:24.213] Server  LOG      ✓ Compiled in 62ms
+[00:49:25.333] Server  LOG      ✓ Compiled in 37ms
+[00:51:17.037] Server  LOG      ✓ Compiled in 244ms
+[00:51:49.450] Server  LOG      ✓ Compiled in 126ms
+[00:54:41.675] Server  LOG      ✓ Compiled in 127ms
+[00:54:56.767] Server  LOG      ✓ Compiled in 239ms
+[00:54:58.348] Server  LOG      ✓ Compiled in 33ms
+[00:55:01.609] Server  LOG      ✓ Compiled in 54ms
+[00:55:22.504] Server  LOG      ✓ Compiled in 197ms
+[00:55:23.143] Server  LOG      ✓ Compiled in 49ms
+[00:56:04.956] Server  LOG      ✓ Compiled in 112ms
+[00:56:07.293] Server  LOG      ✓ Compiled in 50ms
+[00:56:18.859] Server  LOG      ✓ Compiled in 87ms
+[00:56:20.565] Server  LOG      ✓ Compiled in 35ms
+[00:56:55.771] Server  LOG      ✓ Compiled in 58ms
+[00:58:30.395] Server  LOG      ✓ Compiled in 175ms
+[00:58:30.458] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:58:31.229] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:58:31.253] Server  LOG      ✓ Compiled in 53ms
+[00:58:39.912] Server  LOG      ✓ Compiled in 127ms
+[00:58:48.814] Server  LOG      ✓ Compiled in 55ms
+[00:58:48.836] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:59:13.527] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:59:35.560] Server  LOG      ✓ Compiled in 113ms
+[01:00:03.420] Server  LOG      ✓ Compiled in 108ms
+[01:00:11.003] Server  LOG      ✓ Compiled in 90ms
+[01:00:13.094] Server  LOG      ✓ Compiled in 43ms
+[01:00:14.817] Server  LOG      ✓ Compiled in 51ms
+[01:00:16.916] Server  LOG      ✓ Compiled in 47ms
+[01:00:18.518] Server  LOG      ✓ Compiled in 55ms
+[01:00:43.716] Server  LOG      ✓ Compiled in 83ms
+[01:00:46.644] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:05.554] Server  LOG      ✓ Compiled in 252ms
+[01:06:04.387] Server  LOG      ✓ Compiled in 123ms
+[01:06:40.071] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:07:46.955] Server  LOG      ✓ Compiled in 114ms
+[01:07:50.766] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:08:40.047] Server  LOG      ✓ Compiled in 789ms
+[01:08:41.060] Browser ERROR   ./components/footer.tsx:209:1
+Parsing ecmascript source code failed
+  207 |     </footer>
+  208 |   )
+> 209 | }
+      | ^
+  210 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/footer.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/footer.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:08:41.517] Server  LOG      ✓ Compiled in 75ms
+[01:08:41.557] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:08:46.628] Server  LOG      ✓ Compiled in 53ms
+[01:08:53.736] Server  LOG      ✓ Compiled in 53ms
+[01:09:00.809] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:10:29.009] Server  LOG      ✓ Compiled in 130ms
+[01:10:33.335] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:13:58.562] Server  LOG      ✓ Compiled in 333ms
+[01:14:03.597] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:15:37.951] Server  LOG      ✓ Compiled in 156ms
+[01:15:39.510] Server  LOG      ✓ Compiled in 54ms
+[01:15:40.343] Server  LOG      ✓ Compiled in 123ms
+[01:15:53.240] Server  LOG      ✓ Compiled in 118ms
+[01:16:00.993] Server  LOG      ✓ Compiled in 105ms
+[01:16:02.585] Server  LOG      ✓ Compiled in 59ms
+[01:17:31.246] Server  LOG      ✓ Compiled in 189ms
+[01:21:34.486] Server  LOG      ✓ Compiled in 192ms
+[01:23:55.619] Server  LOG      ✓ Compiled in 174ms
+[01:24:12.301] Server  LOG      ✓ Compiled in 74ms
+[01:25:36.830] Server  LOG      ✓ Compiled in 176ms
+[01:25:38.045] Browser ERROR   ./components/video-player-modal.tsx:103:1
+Parsing ecmascript source code failed
+  101 |     </div>
+  102 |   )
+> 103 | }
+      | ^
+  104 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/video-player-modal.tsx [Client Component Browser]
+    ./components/video_parrlex.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/video-player-modal.tsx [Client Component SSR]
+    ./components/video_parrlex.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:45.043] Browser ERROR   ./components/video-player-modal.tsx:103:1
+Parsing ecmascript source code failed
+  101 |     </div>
+  102 |   )
+> 103 | }
+      | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/video-player-modal.tsx [Client Component Browser]
+    ./components/video_parrlex.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/video-player-modal.tsx [Client Component SSR]
+    ./components/video_parrlex.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:45.998] Server  LOG      ✓ Compiled in 86ms
+[01:25:47.044] Browser ERROR   ./components/video-player-modal.tsx:103:2
+Parsing ecmascript source code failed
+  101 |     </div>
+  102 |   )
+> 103 | )
+      |  ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./components/video-player-modal.tsx [Client Component Browser]
+    ./components/video_parrlex.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/video-player-modal.tsx [Client Component SSR]
+    ./components/video_parrlex.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:47.643] Server  LOG      ✓ Compiled in 71ms
+[01:25:48.039] Browser ERROR   ./components/video-player-modal.tsx:103:2
+Parsing ecmascript source code failed
+  101 |     </div>
+  102 |   )
+> 103 | )}
+      |  ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/video-player-modal.tsx [Client Component Browser]
+    ./components/video_parrlex.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/video-player-modal.tsx [Client Component SSR]
+    ./components/video_parrlex.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:49.577] Server  LOG      ✓ Compiled in 134ms
+[01:25:50.050] Browser ERROR   ./components/video-player-modal.tsx:103:1
+Parsing ecmascript source code failed
+  101 |     </div>
+  102 |   )
+> 103 |
+      | ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./components/video-player-modal.tsx [Client Component Browser]
+    ./components/video_parrlex.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/video-player-modal.tsx [Client Component SSR]
+    ./components/video_parrlex.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:53.750] Server  LOG      ✓ Compiled in 146ms
+[01:25:54.096] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:26:34.513] Server  LOG      ✓ Compiled in 146ms
+[01:26:42.747] Server  LOG      ✓ Compiled in 57ms
+[01:26:50.265] Server  LOG      ✓ Compiled in 170ms
+[01:26:54.216] Server  LOG      ✓ Compiled in 56ms
+[01:26:58.923] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:30:05.389] Server  LOG      ✓ Compiled in 304ms
+[01:30:09.438] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:32:54.757] Server  LOG      ✓ Compiled in 151ms
+[01:32:59.798] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:35:47.265] Server  LOG      ✓ Compiled in 638ms
+[01:35:48.453] Server  LOG      ✓ Compiled in 138ms
+[01:35:51.017] Server  LOG      ✓ Compiled in 179ms
+[01:35:52.945] Server  LOG      ✓ Compiled in 86ms
+[01:35:55.995] Server  LOG      ✓ Compiled in 51ms
+[01:35:57.782] Server  LOG      ✓ Compiled in 49ms
+[01:36:00.986] Server  LOG      ✓ Compiled in 90ms
+[01:36:05.155] Server  LOG      ✓ Compiled in 58ms
+[01:36:09.262] Server  LOG      ✓ Compiled in 71ms
+[01:36:11.437] Server  LOG      ✓ Compiled in 41ms
+[01:36:12.608] Server  LOG      ✓ Compiled in 51ms
+[01:36:16.022] Server  LOG      ✓ Compiled in 91ms
+[01:36:20.340] Server  LOG      ✓ Compiled in 49ms
+[01:36:24.763] Server  LOG      ✓ Compiled in 64ms
+[01:36:27.547] Server  LOG      ✓ Compiled in 100ms
+[01:36:28.589] Server  LOG      ✓ Compiled in 34ms
+[01:37:03.340] Server  LOG      ✓ Compiled in 112ms
+[01:37:09.459] Server  LOG      ✓ Compiled in 60ms
+[01:37:10.831] Server  LOG      ✓ Compiled in 30ms
+[01:37:16.629] Server  LOG      ✓ Compiled in 59ms
+[01:37:17.750] Server  LOG      ✓ Compiled in 38ms
+[01:37:19.029] Server  LOG      ✓ Compiled in 38ms
+[01:37:20.493] Server  LOG      ✓ Compiled in 33ms
+[01:37:21.822] Server  LOG      ✓ Compiled in 40ms
+[01:37:23.150] Server  LOG      ✓ Compiled in 34ms

@@ -20,7 +20,7 @@ export default function VideoParallax() {
             overflow-hidden
             bg-fixed bg-cover bg-center
           "
-          style={{ backgroundImage: "url('/video_parralax.jpg')" }}
+          style={{ backgroundImage: "url('/anaplak.jpg')" }}
         >
 
           <div className="absolute inset-0 bg-black/40" />

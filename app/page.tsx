@@ -40,7 +40,7 @@ export default function Home() {
       <Header onVideoClick={() => setIsVideoOpen(true)} />
       <HeroSlider />
       <About />
-      <Pricing />
+      {/* <Pricing /> */}
    
  <VideoParallax/>
     {/* <Services /> */}
@@ -51,7 +51,7 @@ export default function Home() {
   
      <Team />
             <Testimonials />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
      
     </main>

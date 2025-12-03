@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { MapPin, Phone, Facebook, Instagram, MessageCircle } from "lucide-react"
+import { MapPin, Phone } from "lucide-react"
 
 export default function Footer() {
   const words = ["Hair", "Style", "Makeup"]
@@ -20,12 +20,13 @@ export default function Footer() {
       className="relative bg-cover bg-center bg-no-repeat pt-16 md:pt-20 pb-10 md:pb-12"
       style={{ backgroundImage: "url('/footer_bg.jpg')" }}
     >
+
       {/* --------------------------------------------------------------
           MOBILE VERSION
       -------------------------------------------------------------- */}
       <div className="md:hidden flex flex-col items-center text-center px-8">
 
-        {/* ✔ NEW MOBILE LOGO FIX */}
+        {/* MOBILE LOGO */}
         <div className="w-[150px] h-auto overflow-hidden flex items-center justify-center mb-6 mt-2">
           <img
             src="/LOGO_NEW.png"
@@ -39,50 +40,69 @@ export default function Footer() {
         </h2>
 
         {/* LOCATION */}
-        <div className="flex w-full items-start gap-4 mb-10">
-          <div className="w-12 h-12 rounded-full bg-[#D2B6B6] flex items-center justify-center text-black shrink-0">
-            <MapPin size={22} />
-          </div>
+     {/* LOCATION (MOBILE) */}
+<a
+  href="https://www.google.com/maps/search/?api=1&query=Anaplak+Art+and+Glam+Salon+Chennai"
+  target="_blank"
+  className="flex w-full items-start gap-4 mb-10 cursor-pointer"
+>
+  <div className="w-12 h-12 rounded-full bg-[#D2B6B6] flex items-center justify-center text-black">
+    <MapPin size={22} />
+  </div>
 
-          <div className="text-left">
-            <p className="text-gray-300 uppercase text-[12px] tracking-[0.22em] mb-1">
-              Central Office:
-            </p>
-            <p className="text-gray-200 text-[16px] leading-relaxed">
-              Anaplak Art & Glam Salon, Chennai
-            </p>
-          </div>
-        </div>
+  <div className="text-left">
+    <p className="text-gray-300 uppercase text-[12px] tracking-[0.22em] mb-1">
+      Salon Location:
+    </p>
+
+    <p className="text-gray-200 text-[16px] leading-tight">
+      No.4B/9, New No. 3, 2nd floor,
+    </p>
+    <p className="text-gray-200 text-[16px] leading-tight">
+      First Main road, 4th block,
+    </p>
+    <p className="text-gray-200 text-[16px] leading-tight">
+      MMDA Colony, Maduravoyal,
+    </p>
+    <p className="text-gray-200 text-[16px] leading-tight">
+      Chennai – 600095
+    </p>
+  </div>
+</a>
+
 
         {/* PHONE */}
         <div className="flex w-full items-start gap-4 mb-10">
-          <div className="w-12 h-12 rounded-full bg-[#D2B6B6] flex items-center justify-center text-black shrink-0">
+          <div className="w-12 h-12 rounded-full bg-[#D2B6B6] flex items-center justify-center text-black">
             <Phone size={22} />
           </div>
 
           <div className="text-left">
             <p className="text-gray-300 uppercase text-[12px] tracking-[0.22em] mb-1">
-              Phones:
+              Contact:
             </p>
-            <a href="tel:+919840088867" className="text-gray-200 text-[16px] block">
+            <p className="text-gray-200 text-[16px] leading-tight">
               +91 98400 88867
-            </a>
-            <a href="tel:+919840088861" className="text-gray-200 text-[16px] block">
+            </p>
+            <p className="text-gray-200 text-[16px] leading-tight">
               +91 98400 88861
-            </a>
+            </p>
           </div>
         </div>
 
-        {/* SOCIAL */}
+        {/* SOCIAL (MOBILE) */}
         <div className="flex gap-10 text-[#D2B6B6] mt-2 mb-6">
           <a href="https://www.facebook.com/anaplakartandglam" target="_blank">
-            <Facebook size={28} />
+            <img src="/facebook.png" alt="Facebook" className="w-[28px] h-[28px]" />
           </a>
           <a href="https://www.instagram.com/anaplak_art_and_glam_salon" target="_blank">
-            <Instagram size={28} />
+            <img src="/instagram.png" alt="Instagram" className="w-[28px] h-[28px]" />
           </a>
           <a href="https://wa.me/919840088867" target="_blank">
-            <MessageCircle size={28} />
+            <img src="/whatsapp.png" alt="WhatsApp" className="w-[28px] h-[28px]" />
+          </a>
+          <a href="https://www.youtube.com/@Anaplakartandglamsalon" target="_blank">
+            <img src="/youtube.png" alt="YouTube" className="w-[28px] h-[28px]" />
           </a>
         </div>
       </div>
@@ -92,7 +112,7 @@ export default function Footer() {
       -------------------------------------------------------------- */}
       <div className="hidden md:grid max-w-[1350px] mx-auto px-6 lg:px-10 grid-cols-1 md:grid-cols-4 gap-12 lg:gap-16">
 
-        {/* ✔ NEW DESKTOP LOGO FIX */}
+        {/* LOGO */}
         <div className="flex md:block items-center md:items-start">
           <div className="w-[200px] h-auto overflow-hidden flex items-center">
             <img
@@ -131,31 +151,50 @@ export default function Footer() {
             Contact Info
           </h6>
 
-          <div className="space-y-5 text-[15px] md:text-[16px]">
-            {/* LOCATION */}
-            <div className="flex gap-3 items-start">
-              <div className="w-10 h-10 rounded-full bg-[#C8AFAE] flex items-center justify-center text-black">
-                <MapPin size={18} />
-              </div>
-              <div>
-                <p className="uppercase text-[11px] text-gray-400 mb-1 tracking-[0.16em]">
-                  Salon Location:
-                </p>
-                <p className="text-gray-300 leading-[1.6]">
-                  Anaplak Art & Glam Salon, Chennai
-                </p>
-              </div>
-            </div>
+          <div className="space-y-6 text-[15px] md:text-[16px]">
 
-            {/* PHONES */}
+           <a
+  href="https://www.google.com/maps/search/?api=1&query=Anaplak+Art+and+Glam+Salon+Chennai"
+  target="_blank"
+  className="flex gap-3 items-start cursor-pointer group"
+>
+  <div className="w-10 h-10 rounded-full bg-[#C8AFAE] flex items-center justify-center text-black transition group-hover:bg-white">
+    <MapPin size={18} />
+  </div>
+
+  <div>
+    <p className="uppercase text-[11px] text-gray-400 mb-1 tracking-[0.16em]">
+      Salon Location:
+    </p>
+
+    <p className="text-gray-300 leading-tight group-hover:text-white">
+      No.4B/9, New No. 3, 2nd floor,
+    </p>
+    <p className="text-gray-300 leading-tight group-hover:text-white">
+      First Main road, 4th block,
+    </p>
+    <p className="text-gray-300 leading-tight group-hover:text-white">
+      MMDA Colony, Maduravoyal,
+    </p>
+    <p className="text-gray-300 leading-tight group-hover:text-white">
+      Chennai – 600095
+    </p>
+  </div>
+</a>
+
+     
+
+            {/* CONTACT */}
             <div className="flex gap-3 items-start">
               <div className="w-10 h-10 rounded-full bg-[#C8AFAE] flex items-center justify-center text-black">
                 <Phone size={18} />
               </div>
+
               <div>
                 <p className="uppercase text-[11px] text-gray-400 mb-1 tracking-[0.16em]">
                   Contact:
                 </p>
+
                 <p className="text-gray-300 leading-tight">+91 98400 88867</p>
                 <p className="text-gray-300 leading-tight">+91 98400 88861</p>
               </div>
@@ -164,15 +203,19 @@ export default function Footer() {
             {/* SOCIAL */}
             <div className="flex gap-4 pt-1 text-[#C8AFAE]">
               <a href="https://www.facebook.com/anaplakartandglam" target="_blank">
-                <Facebook size={20} />
+                <img src="/facebook.png" alt="Facebook" className="w-[20px] h-[20px]" />
               </a>
               <a href="https://www.instagram.com/anaplak_art_and_glam_salon" target="_blank">
-                <Instagram size={21} />
+                <img src="/instagram.png" alt="Instagram" className="w-[20px] h-[20px]" />
               </a>
               <a href="https://wa.me/919840088867" target="_blank">
-                <MessageCircle size={21} />
+                <img src="/whatsapp.png" alt="WhatsApp" className="w-[20px] h-[20px]" />
+              </a>
+              <a href="https://www.youtube.com/@Anaplakartandglamsalon" target="_blank">
+                <img src="/youtube.png" alt="YouTube" className="w-[22px] h-[22px]" />
               </a>
             </div>
+
           </div>
         </div>
       </div>
