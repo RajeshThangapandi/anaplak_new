@@ -95,7 +95,7 @@ export default function Header() {
               
             </a>
             <a
-              href="https://wa.me/919840088867"
+              href="https://www.youtube.com/@Anaplakartandglamsalon/"
               target="_blank"
               className="hover:opacity-80 transition"
             >
@@ -240,7 +240,7 @@ export default function Header() {
        <img src="/whatsapp.png" alt="Whatsapp" className="w-[24px] h-[24px]" />
     </a>
     <a
-              href="https://wa.me/919840088867"
+              href="https://www.youtube.com/@Anaplakartandglamsalon/"
               target="_blank"
               className="hover:opacity-80 transition"
             >

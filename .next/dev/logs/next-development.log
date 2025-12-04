@@ -1,6 +1,8 @@
-[00:00:01.079] Server  LOG      ✓ Ready in 738ms
-[00:00:06.865] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:01.185] Server  LOG      ✓ Ready in 823ms
+[00:00:05.520] Server  LOG      ○ Compiling / ...
+[00:00:05.803] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:01:19.141] Server  LOG      ✓ Compiled in 152ms
-[00:02:46.982] Server  LOG      ✓ Compiled in 161ms
-[00:03:00.821] Server  LOG      ✓ Compiled in 67ms
+[00:00:28.186] Server  LOG      ✓ Compiled in 187ms
+[00:00:29.312] Server  LOG      ✓ Compiled in 107ms
+[00:00:36.853] Server  LOG      ✓ Compiled in 102ms
+[00:00:40.119] Server  LOG      ✓ Compiled in 374ms

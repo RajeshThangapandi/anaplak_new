@@ -79,7 +79,7 @@ const metadata = {
         width: "device-width",
         initialScale: 1,
         userScalable: false,
-        themeColor: "#53675C"
+        themeColor: "#0a0f0cff"
     }
 };
 function RootLayout({ children }) {
