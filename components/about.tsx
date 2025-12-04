@@ -122,6 +122,8 @@ export default function About() {
     opacity-90
     rotate-slow-delay
     pointer-events-none
+    rounded-full         // ➜ makes the image circular
+    object-cover         // ➜ ensures image fills the circle
   "
 />
 

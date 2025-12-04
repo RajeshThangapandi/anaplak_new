@@ -856,7 +856,7 @@ function About() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                     src: "/a.png",
-                                    className: " w-[150px] h-[150px] md:w-[180px] md:h-[180px] absolute -top-10 md:-top-14 -right-10 md:-right-14 opacity-90 rotate-slow-delay pointer-events-none "
+                                    className: " w-[150px] h-[150px] md:w-[180px] md:h-[180px] absolute -top-10 md:-top-14 -right-10 md:-right-14 opacity-90 rotate-slow-delay pointer-events-none rounded-full         // ➜ makes the image circular object-cover         // ➜ ensures image fills the circle "
                                 }, void 0, false, {
                                     fileName: "[project]/components/about.tsx",
                                     lineNumber: 114,
